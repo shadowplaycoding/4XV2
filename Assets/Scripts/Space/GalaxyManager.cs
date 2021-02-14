@@ -62,7 +62,7 @@ public class GalaxyManager : MonoBehaviour
             int numberOfPlanets = Random.Range(1,10);
             Star star = new Star(name, numberOfPlanets);
             Galaxy.Stars.Add(star);
-            Debug.Log("Created Star " + star.Name + " with " + star.NumberOfPlanets + " planets");
+            Debug.Log("Created " + star.Name + " with " + star.NumberOfPlanets + " planets");
         }
     }
 
