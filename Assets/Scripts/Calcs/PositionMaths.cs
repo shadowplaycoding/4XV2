@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class PostitionMaths
+public static class PositionMaths
 {
     public static Vector3 RandomPolarPosition(float minRad, float maxRad){
         float distance = Random.Range(minRad, maxRad);
